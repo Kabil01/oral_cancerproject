@@ -137,3 +137,5 @@ def treatment():
 def symptoms():
     return render_template('symptoms.html')
 
+if __name__ == '__main__':
+    app.run(debug=True)
